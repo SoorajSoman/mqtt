@@ -68,7 +68,7 @@ public class Cart extends AppCompatActivity {
         setSupportActionBar(toolbar);
         final ActionBar ab = getSupportActionBar();
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setHomeAsUpIndicator(R.drawable.abc_ic_ab_back_mtrl_am_alpha);
+        getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_arrow_back);
         intentFilter = new IntentFilter();
 
         intentFilter.addAction("com.example.MQTT.PushReceived");
